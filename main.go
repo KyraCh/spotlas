@@ -14,6 +14,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
+// Spot characteristics
 type Spot struct {
 	ID          string  `json:"id"`
 	Name        string  `json:"name"`
